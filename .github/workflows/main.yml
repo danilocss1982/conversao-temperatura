@@ -3,8 +3,7 @@ name: CI-CD
 
 on:
   push:
-    branches: 
-      desafio_03
+    branches: [ main ]
   
   workflow_dispatch:
 
