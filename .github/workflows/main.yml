@@ -47,5 +47,4 @@ jobs:
         uses: Azure/k8s-deploy@v3.0
         with:
           image: danilocss/conversao-temperatura:${{ github.run_number }}
-          manifests: |
-            ./src/deployment.yaml
+          manifests: deployment.yaml
