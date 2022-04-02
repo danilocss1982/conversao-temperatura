@@ -48,4 +48,4 @@ jobs:
         with:
           image: danilocss/conversao-temperatura:${{ github.run_number }}
           manifests: |
-            deployment.yaml
+            ./src/deployment.yaml
